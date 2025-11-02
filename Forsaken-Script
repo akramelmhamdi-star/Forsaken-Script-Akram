@@ -1,7 +1,7 @@
 local Players = game:GetService("Players")
 
 local function kickPlayer(player)
-    player:Kick("⚠️ This script is temporarily offline for maintenance. Please check back soon while we resolve the issue.")
+    player:Kick("")
 end
 
 Players.PlayerAdded:Connect(kickPlayer)
